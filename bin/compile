@@ -3,7 +3,17 @@
 # Usage:
 #
 #     $ bin/compile <build-dir> <cache-dir> <env-path>
-
+# ls -al $HDF5_DIR
+# ls -al $NETCDF4_DIR
+# echo $1
+# echo $2
+# echo $3
+# ls -al $1
+# ls -al $2
+# ls -al $3
+# ls -al /app/vendor
+# ls -al /app/vendor/hdf
+# ls -al /app/vendor/netcdf
 # Fail fast and fail hard.
 set -eo pipefail
 
